@@ -24,4 +24,4 @@ The process started with cleaning data. The genres feature contained a list of o
 
 The two models I used were decision tree and svc rbf. Starting with the decision tree. An analysis over the train set showed a poor predictive power to predict genre. The accuracy of the model on the train was 46% and the F1 score was .41. These results are low but much higher than expected. They suggest that there's nearly a 50% chance to guess the genre based on the previous features. It becomes more interesting when looking at the test set. The test set showed a much higher accuracy and F1-score, both at .81. I do not currently know why the training and test set show such a massive difference.  
 
-The scv rbf model used had an accuracy of 2% and an F1-score of .09. These numbers were consistant between the training set and the test set.  
+The scv rbf model used had an accuracy of 20% and an F1-score of .09. These numbers were consistant between the training set and the test set.  
