@@ -17,7 +17,7 @@ I did not have the Genres split into something that a Linear regression model co
 ![Linear_Reg](fig/linear_final.png)
 
 #### Classification
-[Classification](classification.ipynb)  
+[Classification Notebook](classification.ipynb)  
 Classification models performed the best overall. The two models used were Decision Tree and SVC rbf.  
 
 Decision Tree  
@@ -31,7 +31,7 @@ SVC rbf
 The rbf model performed worse than the decision tree. My understanding is the rbf can check for linear and clustering relationships which are not represented by the decision trees structure.  
 
 #### Clustering and Dimensional Analysis  
-[Dimensional Analysis](DimensionalAnalysis.ipynb)  
+[Dimensional Analysis Notebook](DimensionalAnalysis.ipynb)  
 This is the worste section for my data. Having more than one feature for most tests I tried a PCA analysis on my features only to be given this line. I did notice that my data shouldn't perform better with more than two features and ended up using just with without PCA modification for Kmeans.  
 ![PCA](fig/pca.png)  
 
@@ -39,6 +39,7 @@ The cluster analysis I performed was mainly visual, and based on the resulting g
 ![kmeans](fig/kmeans.png)
 
 #### Ensemble
+[Ensemble notebook](Ensemble.ipynb)  
 The last model that I tried was ensemble. Where I tried all of my my best performing models together. This includes a new RandomForest model.  
 
 RandomForest  
