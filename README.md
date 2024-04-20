@@ -23,8 +23,14 @@ Data importing started off with an error. Some of the data is fields that should
 The initial_exploration of the dataset provided insights of the data from the info and value_count functions and scatter plots. The provided info allowed me to clean and filter data that either didn't exist or was set to a default value such as zero, although this did reduce my dataset from around 50k to around 10k. The scatter plot matrix allowed me to see relations between each column of data. From these plots I could see there is roughly a linear relation between budget and revenue, and somewhat normal relations between either budget or revenue to vote_average. Looking at the correlation between budget and revenue I could see it was high and decided to perform linear regression based on this.  
 
 #### Linear Regression
+###### Attempt 1
+I first did a linear regression to find the Revenue because I did not have genres split into ints yet.  
 Within the linear regression notebook I was able to create a model with an approximate accuracy of 55% using any of the following methods with little variation: ElasticNet, Elasticnet with multiple features, quadratic, and cubic. The quadratic set performed better than all other models by ~1%.  
-While testing the models I made the change to not include both budgets that were set to a default of zero, and to budgets that were below 10K. The reason I did this is because out of the approximate 50k rows of data I had, for the purpose of calculating revenue from budget, I found that 40k of them were set to zero. After filtering the data. The percentage of the ElasticNet model droped from around 61% down to 54.4%.
+While testing the models I made the change to not include both budgets that were set to a default of zero, and to budgets that were below 10K. The reason I did this is because out of the approximate 50k rows of data I had, for the purpose of calculating revenue from budget, I found that 40k of them were set to zero. After filtering the data. The percentage of the ElasticNet model droped from around 61% down to 54.4%.  
+
+###### Attempt 2
+After this, I created a new file with new data cleaning section that matches later milestones.  
+The models all ended up performing very poorly trying to predict genre_int with budget (one including vote_average as well). They all showed r2 scores of .007. Linear Regression perfoms poorly on my data when trying to predict genre. It's not bad at predicting revenue though.  
 
 ## Milestone 2 overview
 #### Classification

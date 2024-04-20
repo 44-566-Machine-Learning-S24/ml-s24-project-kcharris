@@ -11,7 +11,7 @@ Cubic LinearRegression with x = budget had a score of .557
 Based on these scores budget has about a 50% relation with the revenue of a movie.
 ![Linear_Reg](fig/linear_reg.png)
 
-I did not have the Genres split into something that a Linear regression model could handle at the time. I went through and ran it after a copy paste of my data cleaning cell from a later stage in the process. The results show a consistent .007 for the R^2 score. The linear regression model does not perform well for my data at all.
+I did not have the Genres split into something that a Linear regression model could handle at the time of the milestone. I went through and ran it after a copy paste of my data cleaning cell from a later stage in the process. The results show a consistent .007 for the R^2 score. The linear regression model does not perform well for my data at all.
 ![Linear_Reg](fig/linear_final.png)
 
 
