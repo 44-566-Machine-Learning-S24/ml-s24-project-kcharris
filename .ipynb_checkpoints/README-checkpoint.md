@@ -3,10 +3,10 @@
 Repo for all project documents  
 
 #### Links to other documents
-2. [Raw data](RAW_DATA.md)
-3. [Data](DATA.md)
-4. [Analysis](ANALYSIS.md)
-5. [Conclusions](CONCLUSIONS.md)
+1. [Raw data](RAW_DATA.md)
+2. [Data](DATA.md)
+3. [Analysis](ANALYSIS.md)
+4. [Conclusions](CONCLUSIONS.md)
 
 ## Introduction and goals
 This project aims to predict the genre of a movie from its metadata features. This list of features includes: budget, revenue, vote average, and vote count after a reduction. In order to find out if it's possible, this project will test the dataset against different models inlcuding linear regression, classification, and decision trees. It will also test these models with different feature combinations.
