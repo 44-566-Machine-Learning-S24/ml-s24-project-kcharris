@@ -2,7 +2,8 @@
 ## Data
 
 DataFrame info:
-```Data columns (total 24 columns):
+```
+Data columns (total 24 columns):
  #   Column                 Non-Null Count  Dtype  
 ---  ------                 --------------  -----  
  0   adult                  45466 non-null  object 
@@ -30,11 +31,14 @@ DataFrame info:
  22  vote_average           45460 non-null  float64
  23  vote_count             45460 non-null  float64
 dtypes: float64(4), object(20)
-memory usage: 8.3+ MB```  
+memory usage: 8.3+ MB
+```  
 
 Genres description before transformation
-```[{'id': 18, 'name': 'Drama'}]                                                                                                         5000
+```
+[{'id': 18, 'name': 'Drama'}]                                                                                                         5000
 [{'id': 35, 'name': 'Comedy'}]                                                                                                        3621
 [{'id': 99, 'name': 'Documentary'}]                                                                                                   2723                                                                                                                      
 [{'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]                                                                       1301                                                                                                                                  ... 
-[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 35, 'name': 'Comedy'}, {'id': 99, 'name': 'Documentary'}]```
+[{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 35, 'name': 'Comedy'}, {'id': 99, 'name': 'Documentary'}]
+```
