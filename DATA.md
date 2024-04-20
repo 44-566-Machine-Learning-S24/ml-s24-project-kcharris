@@ -33,8 +33,20 @@ Data columns (total 24 columns):
 dtypes: float64(4), object(20)
 memory usage: 8.3+ MB
 ```  
+DataFrame description:
+```
+      revenue	    runtime      vote_average	vote_count
+count 4.546000e+04  45203.000000 45460.000000 45460.000000
+mean 1.120935e+07	94.128199	5.618207	109.897338
+std	6.433225e+07	38.407810	1.924216	491.310374
+min	0.000000e+00	0.000000	0.000000	0.000000
+25%	0.000000e+00	85.000000	5.000000	3.000000
+50%	0.000000e+00	95.000000	6.000000	10.000000
+75%	0.000000e+00	107.000000	6.800000	34.000000
+max	2.787965e+09	1256.000000	10.000000	14075.000000
+```
 
-Genres description before transformation
+Genres value count example showing contained data before transformation
 ```
 [{'id': 18, 'name': 'Drama'}]                                                                                                         5000
 [{'id': 35, 'name': 'Comedy'}]                                                                                                        3621
@@ -42,3 +54,12 @@ Genres description before transformation
 [{'id': 18, 'name': 'Drama'}, {'id': 10749, 'name': 'Romance'}]                                                                       1301                                                                                                                                  ... 
 [{'id': 28, 'name': 'Action'}, {'id': 18, 'name': 'Drama'}, {'id': 35, 'name': 'Comedy'}, {'id': 99, 'name': 'Documentary'}]
 ```
+
+Please see the linked notebook for a 3-4 code block examples of how the data has been transformed.
+[Transformation](Transformations.ipynb)
+
+Histogram of Numerical Data
+![Histogram](ExploreHist.png)
+
+Scatter Matrix combinations of data
+![ScatterMatrix](ExploreMatrix.png)
