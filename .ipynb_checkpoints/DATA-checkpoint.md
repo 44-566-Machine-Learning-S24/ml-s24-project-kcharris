@@ -59,7 +59,7 @@ Please see the linked notebook for a 3-4 code block examples of how the data has
 [Transformation](Transformations.ipynb)
 
 Histogram of Numerical Data
-![Histogram](ExploreHist.png)
+![Histogram](fig/ExploreHist.png)
 
 Scatter Matrix combinations of data
-![ScatterMatrix](ExploreMatrix.png)
+![ScatterMatrix](fig/ExploreMatrix.png)
