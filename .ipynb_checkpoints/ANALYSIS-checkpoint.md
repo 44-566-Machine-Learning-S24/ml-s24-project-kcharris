@@ -1,5 +1,8 @@
 [Back to readme](README.md)  
 
+##### A challenge to start with
+Most of my data features are objects. I did use four of the numerical data types that I could. My genre types that I wanted to predict started as objects though. In order to handle genres, first I exploded the object feature into duplicates of the item but with a single different genre that was in genres for each duplicate. Then, in order to pass it to linear models and to ensure there wouldn't be much variation caused by inputting string, I created created a new feature "genre_int" that would contain an encoded value for each specific genre.
+
 #### Linear Regression  
 [Linear Notebook](linear_regression.ipynb)  
 Three models were used: ElasticNet, Quadratic, and Cubic. Elastic net was used twice. The original data and the summary go over these linear models ability to predict a revenue from different feartures.

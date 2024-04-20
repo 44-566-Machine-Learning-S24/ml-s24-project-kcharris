@@ -46,6 +46,8 @@ min	0.000000e+00	0.000000	0.000000	0.000000
 max	2.787965e+09	1256.000000	10.000000	14075.000000
 ```
 
+The value for Budget is an Object that should be registering as an integer. I did have to go through and coerce it into a numerical value my models could work with.
+
 Genres value count example showing contained data before transformation
 ```
 [{'id': 18, 'name': 'Drama'}]                                                                                                         5000
